@@ -1,0 +1,79 @@
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.mainLayout {
+    font-family: 'Anton', sans-serif;
+    width: 85.333%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.mainContent {
+    /* position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    /* background: green; */
+}
+
+.mainContent h2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+}
+
+.mainDes {
+    font-size: 36px;
+}
+
+.mainDesPoint {
+    font-size: 80px;
+} 
+
+@media screen and (min-width: 768px) {
+    .mainLayout {
+        width: 86.9791%;
+        margin-top: 200px;   
+    }
+
+    .mainDes {
+        font-size: 60px;
+    }
+    .mainDesPoint {
+        font-size: 140px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mainLayout {
+        width: 91.7969%;
+        margin-top: 200px;  
+    }
+
+    .mainDes {
+        font-size: 80px;
+    }
+    .mainDesPoint {
+        font-size: 180px;
+    }
+}
+
+
+@media screen and (min-width: 1480px) {
+    .mainLayout {
+        width: 1420px;
+        margin: 0 auto;
+        margin-top: 200px;  
+    }
+
+    .mainDes {
+        font-size: 80px;
+    }
+    .mainDesPoint {
+        font-size: 180px;
+    }
+}
+
+

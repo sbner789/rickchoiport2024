@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_12" data-name="사각형 12" width="100" height="100" transform="translate(0 0.233)" fill="#fb44fb"/>
+    </clipPath>
+  </defs>
+  <g id="REACT_logo" transform="translate(0 -0.233)" clip-path="url(#clip-path)">
+    <g id="React-icon" transform="translate(6.119 2.774)">
+      <circle id="타원_26" data-name="타원 26" cx="8.327" cy="8.327" r="8.327" transform="translate(36.354 38.899)" fill="#61dafb"/>
+      <g id="그룹_25" data-name="그룹 25">
+        <ellipse id="타원_27" data-name="타원 27" cx="44.682" cy="17.06" rx="44.682" ry="17.06" transform="translate(0 30.165)" fill="none" stroke="#61dafb" stroke-width="4.062"/>
+        <ellipse id="타원_28" data-name="타원 28" cx="44.682" cy="17.06" rx="44.682" ry="17.06" transform="matrix(0.5, 0.866, -0.866, 0.5, 37.115, 0)" fill="none" stroke="#61dafb" stroke-width="4.062"/>
+        <ellipse id="타원_29" data-name="타원 29" cx="44.682" cy="17.06" rx="44.682" ry="17.06" transform="matrix(-0.5, 0.866, -0.866, -0.5, 81.797, 17.06)" fill="none" stroke="#61dafb" stroke-width="4.062"/>
+      </g>
+    </g>
+  </g>
+</svg>

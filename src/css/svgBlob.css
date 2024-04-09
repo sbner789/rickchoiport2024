@@ -1,0 +1,95 @@
+.blob1 {
+    top: 520px;
+    width: 150px;
+    height: 150px;
+    left: -10%;
+    animation: blobUp 3s ease-in-out infinite;
+}
+.blob2 {
+    top: 20px;
+    width: 93px;
+    height: 93px;
+    left: 22.9334%;
+    animation: blobDown 3s ease-in-out infinite;
+}
+.blob3 {
+    top: 170px;
+    width: 66px;
+    height: 64px;
+    left: 74.6667%;
+    animation: blobUp 3s ease-in-out infinite;
+}  
+
+@keyframes blobUp {
+    0%, 100% {
+        transform: translateY(0);
+      }
+    50% {
+    transform: translateY(-50px);
+    }  
+}
+
+@keyframes blobDown {
+    0%, 100% {
+        transform: translateY(0);
+      }
+    50% {
+    transform: translateY(50px);
+    }  
+}
+
+
+@media screen and (min-width: 768px) {
+    .blob1 {
+        top: 622px;
+        width: 360px;
+        height: 360px;
+        left: 0%;
+    }
+    .blob2 {
+        top: 84px;
+        width: 180px;
+        height: 180px;
+        left: 32.5520833%;
+    }
+    .blob3 {
+        top: 150px;
+        width: 120px;
+        height: 120px;
+        left: 84.1145833%;
+    } 
+}
+
+
+@media screen and (min-width: 1024px) {
+    .blob1 {
+        top: 622px;
+        left: 0%;
+    }
+    .blob2 {
+        top: 84px;
+        left: 24.4140625%;
+    }
+    .blob3 {
+        top: 165px;
+        left: 54.6875%;
+    }
+}
+
+
+@media screen and (min-width: 1480px) {
+    .blob1 {
+        top: 622px;
+        left: 0%;
+    }
+    .blob2 {
+        top: 84px;
+        /* left: 250px; */
+        left: 13.020833%;
+    }
+    .blob3 {
+        top: 165px;
+        /* left: 950px; */
+        left: 49.4791667%;
+    }
+}

@@ -1,0 +1,124 @@
+.contact {
+    width: 85.333%;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contactLayout {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactItem {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Pretendard_Regular";
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.contactItem span {
+    text-indent: -9999px;
+    width: 62px; 
+    height: 62px;
+}
+
+.pcTitle {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        width: 86.9792%;
+    }
+    .mobileTitle {
+        display: none;
+    }
+    .pcTitle {
+        display: block;
+    }
+    .contactWrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14%;
+        row-gap: 50px;
+    }
+    .contactWrap div {
+        width: auto;
+    }
+    .contactItem {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 22px;
+    }
+    .contactItem span {
+        width: 60px; 
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        width: 80%;
+    }
+    .mobileTitle {
+        display: none;
+    }
+    .pcTitle {
+        display: block;
+    }
+    .contactLayout {
+        margin-top: 90px;
+    }
+    .contactWrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+        row-gap: 50px;
+    }
+    .contactWrap div {
+        width: auto;
+    }
+    .contactItem {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 32px;
+    }
+    .contactItem span {
+        width: 62px; 
+        height: 62px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .contact {
+        width: 1320px;
+    }
+}
+

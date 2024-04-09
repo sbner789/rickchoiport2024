@@ -1,0 +1,10 @@
+.mobileProgress svg {
+    transform: rotate(-90deg);
+}
+
+.chart {
+    transition-property: stroke-dasharray;
+    transition-duration: 1.5s;
+    transition-delay: 0.5s;
+}
+

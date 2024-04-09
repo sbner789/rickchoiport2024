@@ -1,0 +1,74 @@
+.mobileMenu {
+    width: 85.333%;
+    height: calc( 100vh - 120px );
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mobileMenuItems {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    line-height: normal;
+}
+
+.mobileMenuItems a {
+    cursor: pointer;
+}
+
+.mobileMenubtn {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+}
+
+.mobileMenubtn img {
+    width: 40px;
+}
+
+.mobileMenuClose {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+
+.mobileScrollTop {
+    position: fixed;
+    bottom: 28px;
+    right: 120px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+
+.mobileMenuClose img {
+    width: 30px;
+}
+
+.mobileScrollTop img {
+    width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .mobileMenubtn {
+        display: none;
+    }
+}

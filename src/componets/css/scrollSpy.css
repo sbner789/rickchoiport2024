@@ -1,0 +1,87 @@
+.scrollSpy {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .scrollSpy {
+        position: absolute;
+        top: 100vh;
+        left: calc(100% - 50px);
+        width: 50px;
+        height: calc(100% - 100vh);
+        display: flex;
+        justify-content: center;
+        z-index: 9999;
+    }
+    .scrollSpyLayout {
+        position: sticky;
+        margin-top: 90px;
+        top: 50vh;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .navLayout {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .navDot {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #FFFFFF;
+        cursor: pointer;
+        text-indent: -9999px;
+    }
+    .navTitle {
+        position: absolute;
+        right: 40px;
+        display: block;
+        width: auto;
+        padding: 10px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        color: #242424;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .scrolltop {
+        display: block;
+        margin-top: 50px;
+        background: url("/src/images/scrolltop.svg") no-repeat center;
+        text-indent: -9999px;
+        width: 20px;
+        height: 35px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .scrollSpy {
+        position: absolute;
+        top: 100vh;
+        left: calc(100% - 42px);
+        width: 42px;
+        height: calc(100% - 100vh);
+        display: flex;
+        justify-content: center;
+        z-index: 9999;
+    }
+    .scrollSpyLayout {
+        margin-top: 210px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .scrollSpy {
+        left: calc(100% - 8%);
+        width: 8%;
+    }
+}
+
+

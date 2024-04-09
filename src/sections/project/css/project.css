@@ -1,0 +1,620 @@
+.project {
+    width: 85.333%;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center; 
+}
+
+.project h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.projectLayout {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.projectWrap {
+    background: #4E4E4E;
+    padding: 82px 0px 50px 0px;
+    /* width: 85.3333%; */
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.projectWrap h3 {
+    position: relative;
+    text-align: center; 
+}
+
+.projectTitleLayout {
+    display: flex;
+    justify-content: center;
+}
+
+.projectTitle {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    word-break: keep-all;
+}
+
+.projectWrap h3 {
+    display: inline-block;
+}
+
+.projectWrap h3 span {
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+    font-family: "Pretendard_bold";
+    font-size: 22px;
+    position: relative;
+    line-height: 28px;
+    word-break: keep-all;
+}
+
+.projectDescrip {
+    display: flex;
+    justify-content: center;
+}
+
+.projectDescrip p {
+    width: 64%;
+    margin-top: 20px;
+    font-family: "Pretendard_Regular";
+    font-size: 16px;
+    word-break: keep-all;
+    line-height: 22px;
+}
+
+.projectNumber {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: -40px;
+    left: -6px;
+    color: #242424;
+    opacity: 0.5;
+}
+
+.projectContent {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.projectContent button {
+    font-family: "Pretendard_Regular";
+    font-size: 16px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.projectConWrap {
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    row-gap: 16px;
+}
+
+.projectConWrap span {
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+
+.pcTitle {
+    display: none;
+}
+
+.projectWrap h3 p {
+    display: none;   
+}
+
+.detailBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailLayout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 60px 30px;
+    box-sizing: border-box;
+    width: 85%;
+    height: 80%;
+    background: #4E4E4E;
+    border-radius: 15px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.detailTitle {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+.detailTitleWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+}
+.detailTitleWrap h2 {
+    text-align: center;
+    display: block;
+    font-family: "Pretendard_bold";
+    font-size: 22px;
+    line-height: 28px;
+    word-break: keep-all;
+}
+.detailTitleWrap p {
+    font-family: "Pretendard_Regular";
+    font-size: 18px;
+}
+.mobileDetailClose {
+    position: absolute;
+    top: 3.5%;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../../../images/main_menu_close.svg) no-repeat center/contain;
+    text-indent: -9999px;
+    cursor: pointer; 
+}
+.detailClose{
+    display: none;
+}
+.detailContentLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    margin-top: 100px;
+}
+.projectDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.projectDetail h3 {
+    font-family: "Pretendard_bold";
+    font-size: 22px;
+    color: #F8B223;
+}
+.projectDetail p {
+    font-family: "Pretendard_Regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    word-break: keep-all;
+}
+.projectDetail ul {
+    width: 100%;
+    text-align: left;
+    font-family: "Pretendard_Regular";
+    font-size: 16px;
+}
+.projectDetail ul li {
+    list-style-type: disc;
+    margin-block-end: 16px;
+    margin-inline-start: 20px;
+    margin-inline-end: 0px;
+    line-height: 22px;
+    word-break: keep-all;
+}  
+
+@media screen and (min-width: 768px) {
+    .project {
+        width: 86.9792%;
+    }
+    .mobileTitle {
+        display: none;
+    }
+    .pcTitle {
+        display: block;
+    }
+    .projectWrap {
+        display: flex;
+        padding: 108px 0px 70px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 653px;
+    }
+    .projectNumber {
+        font-size: 80px;
+        left: 50px;
+    }
+    .projectLayout > div:nth-child(odd) .projectWrap {
+        margin: 0;
+    }
+    .projectLayout > div:nth-child(even) .projectWrap {
+        margin-right: 0;
+        align-items: flex-end;
+    }
+    .projectLayout > div:nth-child(even) .projectNumber {
+        font-size: 80px;
+        left: 301px;
+    }
+    .projectLayout > div:nth-child(even) .projectWrap h3 p {
+        left: -86px;
+    }
+    .projectLayout > div:nth-child(even) .projectDescrip {
+        left: -86px;
+        text-align: right;
+    }
+    .projectLayout > div:nth-child(even) .projectContent {
+        left: -86px;
+        align-items: flex-end;
+    }
+    .projectWrap h3 {
+        display: flex;
+    }
+    .projectWrap h3 span {
+       display: none;
+    }
+    .projectWrap h3 p {
+        position: relative;
+        display: block;
+        font-family: "Pretendard_bold";
+        font-size: 22px;
+        left: 86px;
+    }
+    .projectDescrip {
+        width: 68%;
+        position: relative;
+        display: block;
+        text-align: left;
+        left: 86px;
+    }
+    .projectDescrip p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .projectContent {
+        position: relative;
+        align-items: flex-start;
+        left: 86px;
+    }
+    .projectConWrap {
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    .projectConWrap span {
+        width: 66px;
+        height: 66px;
+    }
+    .projectContent button {
+        font-size: 18px;
+    }
+
+    .detailLayout {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 60px 60px 60px;
+        box-sizing: border-box;
+        width: 78.125%;
+        height: 80%;
+        background: #4E4E4E;
+        border-radius: 25px;
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .detailTitle {
+        position: sticky;
+        padding: 60px 0px 30px 0px;
+        top: 0px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background: #4E4E4E;
+    }
+    .detailTitleWrap {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        flex-direction: column;
+    }
+    .detailTitleWrap h2 {
+        text-align: left;
+        display: block;
+        font-family: "Pretendard_bold";
+        font-size: 30px;
+    }
+    .detailTitleWrap p {
+        font-family: "Pretendard_Regular";
+        font-size: 22px;
+    }
+    .detailClose {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../../../images/main_menu_close.svg) no-repeat center/contain;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+    .mobileDetailClose{
+        display: none;
+    }
+    .detailContentLayout {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: flex-start;
+        margin-top: 70px;
+    }
+    .projectDetail {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .projectDetail h3 {
+        font-family: "Pretendard_bold";
+        font-size: 24px;
+        color: #F8B223;
+    }
+    .projectDetail p {
+        padding-left: 18px;
+        font-family: "Pretendard_Regular";
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+        word-break: keep-all;
+    }
+    .projectDetail ul {
+        text-align: left;
+        font-family: "Pretendard_Regular";
+        font-size: 18px;
+    }
+    .projectDetail ul li {
+        list-style-type: disc;
+        margin-block-end: 16px;
+        margin-inline-start: 40px;
+        margin-inline-end: 0px;
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .project {
+        width: 91.7969%;
+    }
+    .projectWrap {
+        padding: 100px 0px 70px 0px;
+        width: 925px;
+    }
+    .projectNumber {
+        left: 70px;
+    }
+    .projectLayout > div:nth-child(even) .projectNumber {
+        left: 439px;
+    }
+    .projectLayout > div:nth-child(even) .projectWrap h3 p {
+        left: -120px;
+    }
+    .projectLayout > div:nth-child(even) .projectDescrip {
+        left: -120px;
+    }
+    .projectLayout > div:nth-child(even) .projectContent {
+        left: -120px;
+    }
+    .projectWrap h3 p {
+        font-size: 30px;
+        left: 120px;
+    }
+    .projectDescrip {
+        width: 53%;
+        left: 120px;
+    }
+    .projectDescrip p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .projectContent {
+        left: 120px;
+    }
+    .projectConWrap span {
+        width: 100px;
+        height: 100px;
+    }
+    .detailLayout {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 80px 80px 80px;
+        box-sizing: border-box;
+        width: 78.125%;
+        height: 80%;
+        background: #4E4E4E;
+        border-radius: 25px;
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .detailTitle {
+        position: sticky;
+        padding: 80px 0px 30px 0px;
+        top: 0px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background: #4E4E4E;
+    }
+    .detailTitleWrap {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .detailTitleWrap h2 {
+        line-height: 58px;
+        display: block;
+        font-family: "Pretendard_bold";
+        font-size: 48px;
+    }
+    .detailTitleWrap p {
+        font-family: "Pretendard_Regular";
+        font-size: 28px;
+    }
+    .detailClose {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: url(../../../images/main_menu_close.svg) no-repeat center;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+    .detailContentLayout {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: flex-start;
+        margin-top: 90px;
+    }
+    .projectDetail {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .projectDetail h3 {
+        font-family: "Pretendard_bold";
+        font-size: 28px;
+        color: #F8B223;
+    }
+    .projectDetail p {
+        padding-left: 20px;
+        font-family: "Pretendard_Regular";
+        font-size: 22px;
+        line-height: 30px;
+        text-align: left;
+        word-break: keep-all;
+    }
+    .projectDetail ul {
+        text-align: left;
+        font-family: "Pretendard_Regular";
+        font-size: 22px;
+    }
+    .projectDetail ul li {
+        list-style-type: disc;
+        margin-block-end: 16px;
+        margin-inline-start: 40px;
+        margin-inline-end: 0px;
+    }  
+}
+
+@media screen and (min-width: 1480px) {
+    .project {
+        width: 1420px;
+    }
+    .detailLayout {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 80px 80px 80px;
+        box-sizing: border-box;
+        width: 1200px;
+        height: 80%;
+        background: #4E4E4E;
+        border-radius: 25px;
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .detailTitle {
+        position: sticky;
+        padding: 80px 0px 30px 0px;
+        top: 0px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background: #4E4E4E;
+    }
+    .detailTitleWrap {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .detailTitleWrap h2 {
+        display: block;
+        font-family: "Pretendard_bold";
+        font-size: 48px;
+    }
+    .detailTitleWrap p {
+        font-family: "Pretendard_Regular";
+        font-size: 28px;
+    }
+    .detailClose {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: url(../../../images/main_menu_close.svg) no-repeat center/contain;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+    .detailContentLayout {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: flex-start;
+        margin-top: 90px;
+    }
+    .projectDetail {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .projectDetail h3 {
+        font-family: "Pretendard_bold";
+        font-size: 28px;
+        color: #F8B223;
+    }
+    .projectDetail p {
+        padding-left: 20px;
+        font-family: "Pretendard_Regular";
+        font-size: 22px;
+        line-height: 30px;
+        text-align: left;
+        word-break: keep-all;
+    }
+    .projectDetail ul {
+        text-align: left;
+        font-family: "Pretendard_Regular";
+        font-size: 22px;
+    }
+    .projectDetail ul li {
+        list-style-type: disc;
+        margin-block-end: 16px;
+        margin-inline-start: 40px;
+        margin-inline-end: 0px;
+    }
+}

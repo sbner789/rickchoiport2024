@@ -1,0 +1,152 @@
+.canvasLayout {
+    position: relative;
+}
+
+.mainObject {
+    position: absolute;
+    top: 180px;
+    left: 19.2%;
+}
+
+.mainObject canvas {
+    width: 300px;
+    filter: url(#goo) drop-shadow(2px 6px 2px rgba(0,0,0,0.3));
+}
+
+.aboutObject01 {
+    position: absolute;
+    right: 64%;
+    filter: url(#goo) drop-shadow(2px 6px 2px rgba(0,0,0,0.3));
+}
+.aboutObject02 {
+    position: absolute;
+    top: 377px;
+    left: 80%;
+    filter: url(#goo) drop-shadow(2px 6px 2px rgba(0,0,0,0.3));
+}
+.projectObject01 {
+    position: absolute;
+    top: 200px;
+    left: 80%;
+    z-index: 300;
+    filter: url(#goo) drop-shadow(2px 6px 2px rgba(0,0,0,0.3));
+}
+.projectObject02 {
+    position: absolute;
+    top: 780px;
+    /* left: -90%; */
+    right: 75%;
+    z-index: 300;
+    filter: url(#goo) drop-shadow(2px 6px 2px rgba(0,0,0,0.3));
+}
+.projectObject03 {
+    position: absolute;
+    top: 1380px;
+    left: 75%;
+    z-index: 300;
+    filter: url(#goo) drop-shadow(2px 6px 2px rgba(0,0,0,0.3));
+} 
+
+@media screen and (min-width: 768px) {
+    .mainObject canvas {
+        width: 450px;
+    }
+    .mainObject {
+        position: absolute;
+        top: 50px;
+        left: 55%;
+    }
+    .aboutObject01 {
+        position: absolute;
+        left: -30.46875%;
+    }
+    .aboutObject02 {
+        position: absolute;
+        top: 377px;
+        left: 80%;
+    }
+    .projectObject01 {
+        position: absolute;
+        top: 200px;
+        left: 80%;
+        z-index: 300;
+    }
+    .projectObject02 {
+        position: absolute;
+        top: 750px;
+        left: -47.395833%;
+        z-index: 300;
+    }
+    .projectObject03 {
+        position: absolute;
+        top: 1300px;
+        left: 75%;
+        z-index: 300;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .mainObject canvas {
+        width: 620px;
+    }
+    .mainObject {
+        position: absolute;
+        top: 0px;
+        left: 53.80859375%;
+    }
+    .aboutObject01 {
+        position: absolute;
+        left: -12.109375%;
+    }
+    .aboutObject02 {
+        position: absolute;
+        top: 377px;
+        left: 69.7265625%;
+    }
+    .projectObject01 {
+        position: absolute;
+        top: 200px;
+        left: 78%;
+    }
+    .projectObject02 {
+        position: absolute;
+        top: 800px;
+        left: -24.4140625%
+    }
+    .projectObject03 {
+        position: absolute;
+        top: 1400px;
+        left: 78%;
+    } 
+}
+
+@media screen and (min-width: 1480px) {
+    .mainObject {
+        position: absolute;
+        left: 61.1979166%;
+    }
+    .aboutObject01 {
+        position: absolute;
+        left: 5.9375%;
+    }
+    .aboutObject02 {
+        position: absolute;
+        top: 377px;
+        left: 67.70833%;
+    }
+    .projectObject01 {
+        position: absolute;
+        top: 200px;
+        left: 67.70833%;
+    }
+    .projectObject02 {
+        position: absolute;
+        top: 800px;
+        left: 0%
+    }
+    .projectObject03 {
+        position: absolute;
+        top: 1400px;
+        left: 73.95833%;
+    }
+}

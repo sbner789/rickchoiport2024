@@ -1,0 +1,26 @@
+.is-draw path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s linear forwards;
+    fill: transparent;
+}
+
+.is-draw rect {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s linear forwards;
+    fill: transparent;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1000;
+        fill: #000; 
+    }
+    50% {
+        stroke-dashoffset: 0; 
+    }
+    100% {
+        fill: #FFF;
+    }
+  }

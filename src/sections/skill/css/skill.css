@@ -1,0 +1,199 @@
+.skill {
+    width: 85.333%;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.skill h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.skillContent {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.contentTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; 
+    font-family: "Pretendard_bold";
+    font-size: 38px;
+}
+
+.contentTitle span {
+    width: 66px;
+    height: 66px;
+}
+
+.contentWrap {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; 
+}
+
+.contentItems {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    justify-content: center;
+}
+
+.contentWrap h4 {
+    font-family: "Pretendard_Regular";
+    font-size: 20px;
+}
+
+.mobileProgress {
+    margin-top: 12px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pretendard_Regular";
+    font-size: 24px;
+}
+.percent {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.skillTitle {
+    display: none;
+}
+
+.progressLayout {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .skill {
+        width: 69.9218%;
+    }
+    .skillTitle {
+        display: block;
+    }
+    .mobileSkillTitle {
+        display: none;
+    }
+    .contentTitleWrap {
+        display: flex;
+        align-items: flex-start;
+    }
+    .contentTitle {
+        align-items: flex-start;
+    }
+    .contentItems {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .contentWrap {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mobileProgress {
+        display: none;
+    }
+    .progressLayout {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-family: "Pretendard_Regular";
+        font-size: 20px;
+        width: 71.6946%;
+    }
+    .progress {
+        width: 81.25%;
+        height: 12px;
+        border-radius: 12px;
+        background: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skill {
+        width: 80.0781%;
+    }
+    .skillTitle {
+        display: block;
+    }
+    .mobileSkillTitle {
+        display: none;
+    }
+    .contentTitleWrap {
+        display: flex;
+        align-items: flex-start;
+    }
+    .contentTitle {
+        font-size: 47px;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+    .contentTitle span {
+        width: 80px;
+        height: 80px;
+    }
+    .contentItemsLayout {
+        padding-left: 120px;
+        box-sizing: border-box;
+    }
+    .contentItems {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .contentWrap {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contentWrap h4 {
+        font-size: 24px;
+    }
+    .mobileProgress {
+        display: none;
+    }
+    .progressLayout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        font-family: "Pretendard_Regular";
+        font-size: 20px;
+        width: 68.5714%;
+    }
+    .progress {
+        width: 83.3333%;
+        height: 12px;
+        border-radius: 12px;
+        background: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .skill {
+        width: 1420px;
+    }
+    .contentWrap {
+        width: 1160px;
+    }
+    .progressLayout {
+        width: 940px;
+    }
+    .progress {
+        width: 860px;
+    }
+}
