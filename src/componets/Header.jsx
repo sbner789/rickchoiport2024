@@ -42,7 +42,9 @@ const Header = ({ aboutRef, skillRef, projectRef, contactRef, navState, scrollTo
                         <div className="mobileMenuLayout">
                             <div className="mobileHeader">
                                 <div className="mainLogoLayout">
-                                    <img src={MainLogo} alt="main_logo"></img>
+                                    <a href="/rickchoi">
+                                        <img src={MainLogo} alt="rickchoiweb"></img>
+                                    </a>
                                 </div>
                                 <button className="mobileMenuIconLayout" onClick={() => {
                                     setMenu(false)
